@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: hotpink;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding-left: 0;
+}
+
+li{
+    margin: 2vh 4vw;
+    background-color: blue;
+    border: solid 5px black;
+    padding: 1% 2%;
+}
+nav a{
+    text-decoration: none;
+    color: lightyellow;
+}
+
+p{
+    visibility: hidden;
+}

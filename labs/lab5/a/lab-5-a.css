@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+#page-wrapper{width: 50%; margin: auto; text-align: center;}
+h1{
+    color: darkcyan;
+}
+h3{
+    color: darkviolet;
+}
+
+p{
+    background-color: #a0c3ff;
+    color: #9b0a9b;
+}
+#list1{border: crimson solid 5px;}
+#list2{margin: 10px 10px;}
+#thing1{color: darkred;}
+#thing2{color: darkgreen;}
+#thing3{color: darkblue;}
+#thing4{color: darkgoldenrod;}
+#thing5{color: mediumslateblue;}
+#thing6{background-color: #ff5555;}
+#thing7{background-color: darkorange;}
+#thing8{background-color: goldenrod;}
+#thing9{background-color: forestgreen;}
+#thing10{background-color: dodgerblue;}
+#thing11{background-color: mediumpurple;}
+#thing12{background-color: #be34be;}
+#thing13{background-color: deeppink;}
+.pagetitle{font-variant-caps: small-caps;}
+.simple{color: darkblue;}

@@ -1,0 +1,410 @@
+/*CSS written by Isabelle Stokes*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #382503;
+    color: black;
+    font-family: "Open Sans", "serif";
+    font-size:calc(5px + 1vw);
+}
+
+#container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1% 0;
+    font-size: calc(3px + 1vw);
+}
+
+header{
+    margin: auto;
+    color: #ece3d2;
+    padding: 0 2%;
+    flex: 1;
+    font-size: calc(5px + 1vw);
+}
+nav{
+    width: 100%;
+    margin: auto;
+    flex: 2;
+    padding: 1%;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+
+nav ul li{
+    margin: 0 1%;
+    font-size: calc(2px + 1vw);
+}
+
+
+nav ul li a{
+    color: #ece3d2;
+    text-decoration: none;
+    padding: 7%;
+}
+
+nav ul li a:hover{
+    background-color: #9e768f;
+    color: white;
+    border-radius: 6px;
+}
+
+ul{
+    padding-bottom: 1%;
+}
+
+p{
+    padding-bottom: 1%;
+}
+
+main{
+    background-color: #ECE3D2;
+    height: 100%;
+    padding: 2%;
+    h3{padding: 1% 2%;
+        border: 5px solid #333646;}
+    h4{padding: 1% 2%;}
+    p{padding: 1% 2%;}
+    font-size: calc(5px + 1vw);
+}
+main ul{
+    padding-bottom: 2%;
+    font-size: calc(5px + 1vw);
+}
+
+footer{
+    padding: 1% 0 0.5% 0;
+    text-align: center;
+    font-size: calc(5px + 1vw);
+    background-color: #382503;
+    color: #ece3d2;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer a{
+    color: #ece3d2;
+}
+footer a:hover{
+    color: #dbdedb;
+}
+
+#pic1 {
+    background-image: url("src/duomo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic2 {
+    background-image: url("src/me-standing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic3 {
+    background-image: url("src/ponte-vecchio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic4 {
+    background-image: url("src/skyline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic5 {
+    background-image: url("src/wisteria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    opacity: 0;
+    transition: opacity 2s;
+    background-color: rgba(255, 255, 255, .8);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+    font-family: fantasy;
+    font-size: calc(2px + 2vw);
+    color: black;
+}
+#image-wrapper{
+    position: relative;
+    width: 100%;
+    padding-bottom: 35%;
+}
+#pic1{
+    position: absolute;
+    left: -5%;
+    width: 30%;
+    height: 50vh;
+    rotate: -5deg;
+    border: 5px solid #000000;
+    margin: 3% 10%;
+}
+#pic2{
+    position: absolute;
+    left: 0;
+    width: 30%;
+    height: 50vh;
+    rotate: 8deg;
+    border: 5px solid #000000;
+    margin: 3% 20%;
+}
+#pic3{
+    position: absolute;
+    left: 5%;
+    width: 30%;
+    height: 50vh;
+    rotate: -5deg;
+    border: 5px solid #000000;
+    margin: 3% 30%;
+}
+#pic4{
+    position: absolute;
+    left: 10%;
+    width: 30%;
+    height: 50vh;
+    rotate: 8deg;
+    border: 5px solid #000000;
+    margin: 3% 40%;
+}
+#pic5{
+    position: absolute;
+    left: 25%;
+    width: 30%;
+    height: 50vh;
+    rotate: -5deg;
+    border: 5px solid #000000;
+    margin: 3% 40%;
+}
+#pic1:hover {
+    z-index: 5;
+}
+#pic1:hover .text {
+    opacity: 1;
+}
+#pic2:hover {
+    z-index: 5;
+}
+#pic2:hover .text {
+    opacity: 1;
+}
+#pic3:hover {
+    z-index: 5;
+}
+#pic3:hover .text {
+    opacity: 1;
+}
+#pic4:hover {
+    z-index: 5;
+}
+#pic4:hover .text {
+    opacity: 1;
+}
+#pic5:hover {
+    z-index: 5;
+}
+#pic5:hover .text {
+    opacity: 1;
+}
+
+#message{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 2%;
+    font-size: calc(3px + 1vw);
+}
+
+#special-message{
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*    top: 369%;*/
+    font-family: Optima, sans-serif;
+}
+
+#pic6 {
+    background-image: url("src/cathedral.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*visibility: hidden;*/
+}
+
+#pic7 {
+    background-image: url("src/madonna.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*visibility: hidden;*/
+}
+
+#pic8 {
+    background-image: url("src/statue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*visibility: hidden;*/
+}
+
+#img-wrapper-2 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 15%;
+}
+
+#pic6{
+    position: absolute;
+    left: -40%;
+    width: 30%;
+    height: 50vh;
+    rotate: 0deg;
+    border: 5px solid #000000;
+    margin: 3% 40%;
+}
+
+#pic7{
+    position: absolute;
+    left: -5%;
+    width: 30%;
+    height: 50vh;
+    rotate: 0deg;
+    border: 5px solid #000000;
+    margin: 3% 40%;
+}
+
+#pic8{
+    position: absolute;
+    left: 30%;
+    width: 30%;
+    height: 50vh;
+    rotate: 0deg;
+    border: 5px solid #000000;
+    margin: 3% 40%;
+}
+
+@media screen and (max-width:1200px){
+    #image-wrapper{
+        padding-bottom: 40%;
+    }
+    #message{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin: auto;
+        border: 3px solid black;
+        border-radius: 50%;
+        padding: 2%;
+        font-size: calc(3px + 1vw);
+    }
+    #special-message{
+        visibility: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*    top: 369%;*/
+        font-family: Optima, sans-serif;
+    }
+}
+
+@media screen and (max-width:1000px){
+    #image-wrapper{
+        padding-bottom: 40%;
+    }
+    #message{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin: auto;
+        border: 3px solid black;
+        border-radius: 50%;
+        padding: 2%;
+        font-size: calc(3px + 1vw);
+    }
+    #special-message{
+        visibility: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*    top: 369%;*/
+        font-family: Optima, sans-serif;
+    }
+}
+@media screen and (max-width:900px){
+    #image-wrapper{
+        padding-bottom: 50%;
+    }
+    #message{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin: auto;
+        border: 3px solid black;
+        border-radius: 50%;
+        padding: 2%;
+        font-size: calc(3px + 1vw);
+    }
+    #special-message{
+        visibility: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*    top: 369%;*/
+        font-family: Optima, sans-serif;
+    }
+}
+@media screen and (max-width: 750px){
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding: 1% 0;
+        font-size: calc(5px + 1vw);
+    }
+    #message{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin: auto;
+        border: 3px solid black;
+        border-radius: 50%;
+        padding: 2%;
+        font-size: calc(3px + 1vw);
+    }
+    #image-wrapper{
+        padding-bottom: 80%;
+    }
+    #special-message{
+        visibility: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*    top: 369%;*/
+        font-family: Optima, sans-serif;
+    }
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+div{
+    margin: auto;
+    background-color: #9d6fff;
+    text-align: center;
+}
+
+header{
+    background-color: #ff9cab;
+    padding: 10px;
+    color: brown;
+}
+
+
+nav{
+    background-color: #b7d2ff;
+    ul{padding:10px;}
+    padding-left: 0;
+    margin: auto;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+
+main{
+    background-color: aquamarine;
+    padding: 20px;
+}
+p{
+    color: #17029f;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ff9cab;
+    border-width: 5px;
+}
+footer{
+    background-color: #b7d2ff;
+    padding: 10px;
+}

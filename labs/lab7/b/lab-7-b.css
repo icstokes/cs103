@@ -1,0 +1,110 @@
+*{margin: 0;
+box-sizing: border-box;}
+#pic1 {
+    background-image: url("src/shadowandbone1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic2 {
+    background-image: url("src/shadowandbone2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic3 {
+    background-image: url("src/shadowandbone3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pic4 {
+    background-image: url("src/shadowandbone4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    opacity: 0;
+    transition: opacity 2s;
+    background-color: rgba(255, 255, 255, .8);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+    font-family: fantasy;
+    font-size: calc(2px + 2vw);
+    color: black;
+}
+#wrapper{
+    position: relative;
+    background-color: black;
+    width: 100%;
+}
+#pic1{
+    position: absolute;
+    left: 1%;
+    width: 30%;
+    height: 50vh;
+    border: 5px solid slateblue;
+    margin: 5% 10%;
+    rotate: -5deg;
+}
+#pic2{
+    position: absolute;
+    left: 5%;
+    width: 30%;
+    height: 50vh;
+    border: 5px solid slateblue;
+    margin: 5% 20%;
+    rotate: 5deg;
+}
+#pic3{
+    position: absolute;
+    left: 10%;
+    width: 30%;
+    height: 50vh;
+    border: 5px solid slateblue;
+    margin: 5% 30%;
+    rotate: -5deg;
+}
+#pic4{
+    position: absolute;
+    left: 15%;
+    width: 30%;
+    height: 50vh;
+    border: 5px solid slateblue;
+    margin: 5% 40%;
+    rotate: 5deg;
+}
+#pic1:hover {
+    z-index: 5;
+}
+#pic1:hover .text {
+    opacity: 1;
+}
+#pic2:hover {
+    z-index: 5;
+}
+#pic2:hover .text {
+    opacity: 1;
+}
+#pic3:hover {
+    z-index: 5;
+}
+#pic3:hover .text {
+    opacity: 1;
+}
+#pic4:hover {
+    z-index: 5;
+}
+#pic4:hover .text {
+    opacity: 1;
+}
+h1{
+    font-family: cursive;
+    font-size: xxx-large;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+}

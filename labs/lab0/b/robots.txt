@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /cs103/
+
+Sitemap: /Users/isabelles/WebstormProjects/cs103/labs/lab3/b/ics-sitemap.xml
